@@ -1,0 +1,54 @@
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open >a {
+    text-decoration: underline;
+    text-decoration-color: chartreuse;
+    background-color: #333333;
+	display: block;
+}
+
+
+.navbar-brand{
+    /*left:calc(50% - 75px);*/
+    position: relative;
+    padding: 0;
+   top: -25px;
+    border-bottom-color: red;
+}
+.navbar-brand:hover{
+    -webkit-transform: scale(1.2,1.2);
+    top: -28px;
+}
+.container-fluid{
+    padding-top: 65px;
+}
+table{
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0 50px 0 50px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+table td{
+    padding: 7px;
+    border: 1px solid;
+    text-align: center;
+}
+caption{
+    text-align: center;
+}
+
+section{
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+}
+h3{
+    text-decoration: underline;
+}
+hr{
+    border-top: 1px solid #999999;
+    width: 90%;
+}
